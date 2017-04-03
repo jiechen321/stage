@@ -1,0 +1,15 @@
+<!--test.wxml-->
+<view class="container">
+  <view>{{title}}</view>
+  <view>{{desc}}</view>
+  <!--view wx:if="{{condition}}"> Go </view>
+  <checkbox checked="{{false}}"> Nice</checkbox>
+  <view hidden="{{flag ? true : false}}"> Hidden </view>
+  <view> {{a + b}} + {{c}} + d </view>
+  <view>{{"hello" + name}}</view>
+  <view>{{object.key}} {{array[0]}}</view-->
+  <view>2.1、内容：{{desc}}</view>
+  <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+    {{idx}}: {{itemName}}
+  </view>
+</view>
